@@ -12,6 +12,7 @@ const Home = () => {
         <Link href={'/about'}><button className="btn btn-primary">About</button> </Link>
         <Link href={'/jobs'}><button className="btn btn-primary">Jobs</button> </Link>
         <Link href={'/careers'}><button className="btn btn-primary">Careers</button> </Link>
+        <Link href={'/posts'}><button className="btn btn-primary">Posts</button> </Link>
         
       </div>
     </div>
