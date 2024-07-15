@@ -2,7 +2,7 @@ import React from "react";
 
 const page = async () => {
   const res = await fetch("http://localhost:4000/posts", {
-    cache: "force-cache",
+    cache:"no-store"
   });
   const posts = await res.json();
   console.log(posts);

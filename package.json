@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3001",
-    "json-server": "json-server PracDB.json --port 4000",
+    "json-server": "json-server PracDB.json -p 4000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
