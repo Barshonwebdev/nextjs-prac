@@ -5,7 +5,7 @@ const page = async () => {
     cache:"no-store"
   });
   const posts = await res.json();
-  console.log(posts);
+  console.log(posts); 
 
   return (
     <div>
