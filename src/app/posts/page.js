@@ -10,7 +10,7 @@ const page = async () => {
   return (
     <div>
       <h1 className="my-5 text-3xl text-center text-green-700">Posts</h1>
-      {posts.map((post) => (
+      {posts.map((post) => ( 
         <div key={post.id} className="card m-5 bg-gray-300 w-full shadow-xl">
           
           <div className="card-body">
