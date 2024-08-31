@@ -6,7 +6,7 @@ const page = async () => {
   });
   const posts = await res.json();
   console.log(posts); 
-
+ 
   return ( 
     <div>
       <h1 className="my-5 text-3xl text-center text-green-700">Posts</h1>
